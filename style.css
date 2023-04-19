@@ -1,0 +1,81 @@
+header{
+    text-align: center;
+    font-family: "comic sans ms";
+    font-size: 20px;
+    padding: 7px;
+    opacity: 95%;
+    margin: 10px;
+    background-color: rgb(17, 124, 143);
+    color: white;
+    border: 3.5px solid black;
+} 
+nav{
+    background-color: #333;
+    padding: 5px;
+    padding-left: 7px;
+    margin: 10px;
+    border: 3px solid black;
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red; 
+}
+
+nav a{
+    padding: 10px;
+    color: white;
+    font-family: "comic sans ms";
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f1f1;
+}
+
+table{
+    font-family: "comic sans ms";
+    margin: 10px;
+    width: 100%;
+    padding: 7px;
+}
+th, td {
+    border-bottom: 1px solid rgb(203, 199, 199);
+    padding: 20px;
+    text-align: center;
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  thead{
+    background-color: #333;
+    padding: 7px;
+    margin: 10px;
+    border: 3px solid black;
+    color: white;
+   
+  }
+
+  h2{
+    text-align: center;
+    font-family: "comic sans ms";
+    font-size: 20px;
+    padding: 7px;
+    opacity: 95%;
+    margin: 10px;
+    background-color: rgb(17, 124, 143);
+    color: white;
+    border: 3px solid black;
+  }
+
+footer{
+    text-align: center;
+    font-family: "comic sans ms";
+    size: 5px;
+    padding-top: 0px;
+
+}
