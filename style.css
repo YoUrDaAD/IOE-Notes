@@ -1,4 +1,5 @@
-header{
+/* Header */
+header {
     text-align: center;
     font-family: "comic sans ms";
     font-size: 20px;
@@ -8,15 +9,58 @@ header{
     background-color: rgb(17, 124, 143);
     color: white;
     border: 3.5px solid black;
-} 
-nav{
+    min-width: 800px;
+  }
+
+
+
+/* Navigation */
+nav {
     background-color: #333;
     padding: 5px;
     padding-left: 7px;
     margin: 10px;
     border: 3px solid black;
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 800px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-family: "comic sans ms";
+
+  }
+
+@media screen and (max-width: 767px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
+
+
+
+*{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.image{
+    height: 15vh;
+    border: 3px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
 a{
     text-decoration: none;
 }
@@ -41,6 +85,9 @@ table{
     margin: 10px;
     width: 100%;
     padding: 7px;
+   min-width: 810px;
+    
+    
 }
 th, td {
     border-bottom: 1px solid rgb(203, 199, 199);
@@ -50,6 +97,7 @@ th, td {
   .center {
     margin-left: auto;
     margin-right: auto;
+    
   }
   thead{
     background-color: #333;
@@ -57,7 +105,16 @@ th, td {
     margin: 10px;
     border: 3px solid black;
     color: white;
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
    
+  }
+  .table__heading{
+   font-size: 20px;
+  }
+  .sub_table_heading{
+    font-size: 20px;
   }
 
   h2{
@@ -70,6 +127,8 @@ th, td {
     background-color: rgb(17, 124, 143);
     color: white;
     border: 3px solid black;
+    min-width: 800px;
+
   }
 
 footer{
@@ -77,5 +136,10 @@ footer{
     font-family: "comic sans ms";
     size: 5px;
     padding-top: 0px;
+    min-width: 800px;
 
 }
+
+
+
+
